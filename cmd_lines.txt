@@ -1,0 +1,5 @@
+Frequently Used Command Lines:#load psf & pub/..
+mol new 
+mol addfile 
+#set the directorycd Desktop/IGEM/MD#update secondary structure
+mol ssrecalc top

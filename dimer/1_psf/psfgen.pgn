@@ -1,0 +1,9 @@
+package require psfgen
+
+#put the top file in the same directory with pdbtopology top_all36_prot.rtf
+pdbalias residue HIS HSEpdbalias atom ILE CD1 CD
+
+#type your pdb name to replace []segment U {pdb [pdb name here].pdb}coordpdb [pdb name here].pdb U
+guesscoord
+
+#type your output name to replace []writepdb [output name].pdbwritepsf [output name].psf
